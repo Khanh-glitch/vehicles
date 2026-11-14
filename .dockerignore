@@ -8,5 +8,4 @@ coverage
 .env.*
 assets/source/*.glb
 assets/source/*.zip
-public/models/*.glb
 google_drive
