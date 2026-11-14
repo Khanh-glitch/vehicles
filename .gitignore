@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+
+.env
+.env.*
+!.env.example
+
+# Optional raw GLB inputs are provided separately; prebuilt runtime models are tracked.
+assets/source/*.glb
+assets/source/*.zip
+
+# Generated catalogue GLBs are rebuilt from the bundled, exact compressed sources on install.
+public/models/*.glb
+
+# GLBs imported by users through the in-app pipeline are runtime data.
+public/models/custom/*
+!public/models/custom/.gitkeep
