@@ -1,0 +1,12 @@
+.git
+node_modules
+.next
+out
+coverage
+*.log
+.env
+.env.*
+assets/source/*.glb
+assets/source/*.zip
+public/models/*.glb
+google_drive
