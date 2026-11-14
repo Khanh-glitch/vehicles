@@ -52,7 +52,7 @@ npm run typecheck
 npm run lint
 ```
 
-`assets/source/` là thư mục làm việc cho input đã giải nén hoặc source bổ sung; các file đó được ignore bởi Git. Bản nén gốc nằm trong `assets/model-sources/` để có thể tái tạo bốn model đã cung cấp. Runtime GLB được tái tạo khi chạy `npm ci` hoặc `npm run assets:prepare`.
+`assets/source/` là thư mục làm việc cho input đã giải nén hoặc source bổ sung; các file đó được ignore bởi Git. Bản nén gốc nằm trong `assets/model-sources/` để có thể tái tạo bốn model đã cung cấp; bốn runtime GLB tương ứng cũng được version trong `public/models/` và tải cùng source từ GitHub. Chạy `npm ci` hoặc `npm run assets:prepare` sẽ tái tạo, kiểm tra các file này từ đúng source.
 
 ## Thành phần
 
